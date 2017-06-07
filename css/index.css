@@ -1,0 +1,150 @@
+.categoires{
+    height: 210px;
+    margin-top: 50px;
+}
+.categoires div{
+    float: left;
+    margin-right: 16px;
+}
+.fashion-grid-a{
+    height:100%;
+    width: 364px;
+    background: url("../img/bg1.jpg") no-repeat;
+    position: relative;
+}
+.fashion-grid-a h4{
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+
+}
+.fashion-grid-a p{
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+}
+.fashion-grid-b{
+    height:100%;
+    width: 364px;
+    background: url("../img/bg2.jpg") no-repeat;
+    position: relative;
+}
+.fashion-grid-b h4{
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+.fashion-grid-b p{
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+}
+.fashion-grid-c{
+    height:100%;
+    width: 364px;
+    background: url("../img/bg3.jpg") no-repeat;
+    position: relative;
+}
+.fashion-grid-c h4{
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+.fashion-grid-c p{
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    right: 12px;
+    bottom: 20px;
+}
+#product{
+    margin-top: 30px;
+}
+#product-tags{
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#product-tags li{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    background: #fa558f;
+    color: #fff;
+}
+#product-list li{
+    width: 30%;
+    margin: 0 3% 4% 0;
+    float: left;
+    border: 1.5px solid #eee;
+}
+#product-list img{
+    width: 100%;
+}
+#product-list .product-info{
+    padding: 0.8rem 1.2rem;
+    background: #eaeaea;
+}
+#product-list .product-name{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+#product-list .product-price{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#product-list .amount{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    height: 25px;
+}
+#product-list .btn-add-cart{
+    border-radius: 5px;
+    background: #ef8743;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    display: inline-block;
+    margin-top: 10px;
+}
+#loading-more{
+    width: 300px;
+    height: 50px;
+    background: #ccc;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    display: none;
+}
+#loading{
+    display: none;
+}
